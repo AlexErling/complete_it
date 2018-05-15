@@ -33,19 +33,15 @@ body {
 }
 
 #timer_div {
-  float:left;
   width: 50%;
 }
 
 #notes_div {
-  float:right;
-  width: 45%;
-  height: 570px;
+  width: 50%;
 
 }
 
 #to_do_div {
-  float:left;
   width: 50%;
 }
 
