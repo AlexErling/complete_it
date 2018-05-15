@@ -1,0 +1,1 @@
+Complete it is a productivity chrome extension that includes a to do list, a timer, and a notes section that is all hooked up to chrome storage, so you can access it from whichever chrome account you are on.
