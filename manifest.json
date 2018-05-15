@@ -1,0 +1,16 @@
+{
+  "name": "Implementation Intentions Goal List",
+  "version": "1.0",
+  "description": "This is a simple extension that replaces the new tab with a goal list that makes you focus on how to implement your goal instead of thinking about it abstractly.",
+  "chrome_url_overrides": {
+    "newtab": "tab.html"
+  },
+  "options_page": "options.html",
+  "permissions": [
+    "storage"
+  ],
+  "page_action" : {
+  "default_popup": "popup.html"
+},
+  "manifest_version": 2
+}

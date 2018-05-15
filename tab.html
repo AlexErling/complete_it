@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Complete It - Task Manager</title>
+  <link rel="stylesheet" type="text/css" href="css/tab.css">
+  </head>
+  <body>
+        <font = "Verdana"></font>
+        <h1 id ="title"><u>Complete It - Task Manager</u></h1>
+      <div id = "to_do_div" class="container">
+        <p>
+          <label for="new-task">Add Item</label><input id="new-task" type="text"><button>Add</button>
+        </p>
+
+        <h3>Todo</h3>
+        <ul id="incomplete-tasks">
+        </ul>
+
+        <h3>Completed</h3>
+        <ul id="completed-tasks">
+        </ul>
+
+      </div>
+
+
+        <div id = "notes_div" class="container">
+        <h3>Notes</h3>
+          <textarea id ="notes">
+          </textarea>
+          <button id="save_note">Save notes</button>
+          <button id="delete_note">Delete notes</button>
+      </div>
+
+      <div id ="timer_div" class="container">
+      <h3>Timer</h3>
+      <h1><span>00:00:00</span></h1>
+
+      <form action="#" method="post">
+        <input type="button" name="start" value="Start">
+        <input type="button" name="stop" value="Stop">
+        <input type="button" name="reset" value="Reset">
+        <input type="button" name="alarm" value="Set alarm">
+        <input type="hidden" name="time" value="00:00:00">
+      </form>
+    </div>
+
+      <script type="text/javascript" src="js/jquery-2.1.1.jquery.min.js"> </script>
+      <script type="text/javascript" src="js/notes.js"></script>
+      <script type="text/javascript" src="js/todo.js"></script>
+      <script type="text/javascript" src="js/timer.js"></script>
+
+</html>

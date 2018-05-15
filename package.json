@@ -1,0 +1,16 @@
+{
+  "name": "implementation-intentions",
+  "version": "1.0.0",
+  "description": "To do list with timer.",
+  "main": "js/timer.js",
+  "dependencies": {
+    "easytimer": "^1.1.1",
+    "easytimer.js": "^2.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
